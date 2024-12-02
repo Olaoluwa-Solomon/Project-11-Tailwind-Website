@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OLA Grocer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div
+      class="container min-h-screen px-4 sm:px-6 lg:px-20 py-5 bg-[url('images/image.png')] bg-center bg-cover relative">
+      <!-- =======logo========= -->
+      <nav class="flex flex-wrap items-center justify-between">
+        <h1 class="text-white text-2xl sm:text-3xl font-semibold">
+          OLA<span class="text-yellow-300">Grocer</span>
+        </h1>
+        <!-- Navigation -->
+        <ul
+          class="flex flex-1 sm:flex-none items-center justify-center mt-3 mr-48 sm:mt-0 sm:mr-0">
+          <li class="list-none px-3">
+            <a
+              href="#"
+              class="no-underline text-white text-sm sm:text-base px-2"
+              >Home</a
+            >
+          </li>
+          <li class="list-none px-3">
+            <a
+              href="#"
+              class="no-underline text-white text-sm sm:text-base px-2"
+              >About</a
+            >
+          </li>
+          <li class="list-none px-3">
+            <a
+              href="#"
+              class="no-underline text-white text-sm sm:text-base px-2"
+              >Features</a
+            >
+          </li>
+          <li class="list-none px-3">
+            <a
+              href="#"
+              class="no-underline text-white text-sm sm:text-base px-2"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <img
+          src="images/cart.png"
+          class="w-6 sm:w-8 cursor-pointer absolute top-5 right-5 sm:right-20" />
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="text-white mt-10 sm:mt-20 lg:mt-28 max-w-xl">
+        <h1
+          class="text-3xl sm:text-5xl lg:text-6xl font-light leading-tight sm:leading-normal">
+          Groceries <br />delivery in
+          <span class="text-yellow-300 font-semibold">15 mins!</span>
+        </h1>
+        <p class="mt-4 text-sm sm:text-base lg:text-lg">
+          <span class="text-white">OLA</span
+          ><span class="text-yellow-300">Grocer</span>
+          offers a wide range of products, including fresh produce, meats,
+          dairy, baked goods, and non-perishable items.
+        </p>
+
+        <!-- Buttons -->
+        <div class="mt-6 sm:mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-2 px-6 sm:py-3 sm:px-8 text-sm sm:text-base lg:text-lg font-medium inline-block mr-4 hover:bg-transparent hover:border border border-transparent hover:border-yellow-300 hover:text-white duration-300"
+            >Order Now</a
+          >
+          <a href="#" class="text-sm sm:text-base lg:text-lg"
+            >Download App
+            <span class="text-lg inline-block rotate-90">&#10148;</span></a
+          >
+        </div>
+      </div>
+      <!-- Grocery Image -->
+      <img
+        src="images/grocery-image.png"
+        alt="Grocery Items"
+        class="w-full sm:w-2/3 lg:w-1/2 mx-auto mt-6 sm:mt-10 lg:mt-0 lg:absolute lg:bottom-0 lg:right-10"
+        loading="lazy" />
+    </div>
+  </body>
+</html>
